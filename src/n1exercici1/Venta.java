@@ -26,7 +26,7 @@ public class Venta {
 		}
 
 	}
-
+	//exception indexoutofbounds:
 	public static void CalcularTotalException() {
 		try {
 			for (int i = 0; i <= 2; i++) {
