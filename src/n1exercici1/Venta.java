@@ -22,6 +22,7 @@ public class Venta {
 				indexValido = true;
 			} catch (VentaVaciaException ex) {
 				System.out.println(ex.getMessage());
+				indexValido = true;
 			}
 		}
 

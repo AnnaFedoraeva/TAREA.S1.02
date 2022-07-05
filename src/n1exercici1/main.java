@@ -5,6 +5,8 @@ public class main {
 	public static void main(String[] args) throws VentaVaciaException {
 		// TODO Auto-generated method stub
 
+		Venta.CalcularTotal();
+		
 		Producto yogur = new Producto("Yogur", 1);
 		Producto zumo = new Producto("Zumo", 2);
 
